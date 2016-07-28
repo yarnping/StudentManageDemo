@@ -1,0 +1,9 @@
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/Application.java
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/util/Tool.java
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/repository/StudentRowMapper.java
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/entity/StudentRole.java
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/controller/StudentJsonHelper.java
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/repository/StudentRepository.java
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/entity/Student.java
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/util/IdGen.java
+/Users/wang/workspace/Idea/StudentManageDemo/src/main/java/demo/controller/StudentController.java
