@@ -18,6 +18,7 @@ import java.util.List;
 
 /**
  * Created by wang on 16/7/26.
+ * 数据处理这块,因为逻辑比较简单,没有分层,写一起了
  */
 @Repository
 public class StudentRepository {

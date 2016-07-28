@@ -10,6 +10,7 @@ import java.util.List;
 
 /**
  * Created by wang on 16/7/28.
+ * 主要将student array 数据转换为json
  */
 public class StudentJsonHelper {
     private List<Student> studentList;

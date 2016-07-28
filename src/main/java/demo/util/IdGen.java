@@ -1,5 +1,8 @@
 package demo.util;
 
+/**
+ * 编码生成,参考了snowflake改的
+ */
 public class IdGen {
     private static IdGen instance;
     private long sequence = 0L;

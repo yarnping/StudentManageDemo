@@ -110,11 +110,13 @@
 
 </body>
 <script type="text/javascript">
-
+    //开始时间
     var filterStartDateTime = 0
+    //结束时间
     var filterEndDateTime = 0
-
+    //账号类型
     var filterRole = -1
+
     //select2
     $(".js-example-basic-single").on("select2:select", function(e) {
         filterRole = $(this).find(":selected").attr("value");
@@ -122,7 +124,7 @@
 
 
 
-    //date time picker
+    //date range picker
     $(function() {
         $('input[name="daterange"]').daterangepicker({
             timePicker: true,
@@ -141,7 +143,7 @@
         filterEndDateTime   = picker.endDate.valueOf()/1000
     });
 
-    //table
+    //table相关
     var table;
     $(document).ready(function(){
         $(".js-example-basic-single").select2({
@@ -172,12 +174,11 @@
 //        })
     });
 
-
+    //选择单行之后
     $('#student-list').on( 'click', 'tr', function () {
         var d = table.row( this ).data();
 
     } );
-
 
     $('#student-list').on( 'length.dt', function ( e, settings, len ) {
         console.log( 'New page length: '+len );
@@ -188,7 +189,7 @@
     } );
 
 
-
+    // 条件过滤
     var startFilter = function(){
         if($("#btnfilter").text() == "过滤") {
             var code = $("#code").val();

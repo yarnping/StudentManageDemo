@@ -19,6 +19,14 @@ public class StudentController {
     String home() {
         return "stu_manage";
     }
+
+    /**
+     * 没有过滤条件的情况下拉取数据
+     * @param draw
+     * @param start
+     * @param length
+     * @return
+     */
     @RequestMapping("/jsontest")
     @ResponseBody
     String jsontest(@RequestParam(value = "draw") int draw, @RequestParam(value = "start") int start,
@@ -36,6 +44,18 @@ public class StudentController {
         return jsonHelper.toString();
     }
 
+    /**
+     * 有过滤条件的情况下拉取数据
+     * @param draw
+     * @param start
+     * @param length
+     * @param code
+     * @param name
+     * @param role
+     * @param startTime
+     * @param endTime
+     * @return
+     */
     @RequestMapping("/stufilter")
     @ResponseBody
     String stufilter(@RequestParam(value = "draw") int draw, @RequestParam(value = "start") int start,
