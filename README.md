@@ -1,11 +1,11 @@
 # StudentManageDemo
 
-### tec stack
-spring boot
-freemarker
-spring jdbc
+### demo tec stack
+- spring boot
+- freemarker
+- spring jdbc
 
-bootstrap
-select2
-daterangepicker
-datatables
+- bootstrap
+- select2
+- daterangepicker
+- datatables
