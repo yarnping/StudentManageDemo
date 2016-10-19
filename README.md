@@ -1,2 +1,11 @@
 # StudentManageDemo
-珍惜现在
+
+### tec stack
+spring boot
+freemarker
+spring jdbc
+
+bootstrap
+select2
+daterangepicker
+datatables
